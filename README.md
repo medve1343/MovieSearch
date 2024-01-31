@@ -11,4 +11,4 @@ Click on the link below to watch a demo or if you would like to run it locally, 
 7. npm install -g @vue/cli
 8. npm run serve
 
-*[Software Demo Video](https://www.youtube.com/watch?v=7vZXMmvC0rw)
+*[Software Demo Video](https://youtu.be/w12OvdIwOCQ)
