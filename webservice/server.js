@@ -1,13 +1,14 @@
-console.log(process.env.TMDB_API_KEY);
 const express = require('express');
+const cors = require('cors');  
 const axios = require('axios');
 const dotenv = require('dotenv');
-
 
 dotenv.config(); // Load environment variables
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+app.use(cors());
 
 app.get('/movies', async (req, res) => {
   try {
